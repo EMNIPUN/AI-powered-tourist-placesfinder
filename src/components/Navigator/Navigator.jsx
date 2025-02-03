@@ -1,6 +1,8 @@
 import React from 'react'
 import { useNavigate } from "react-router-dom"
-import NavLink from './NavLink'
+import { NavLink } from "react-router-dom";
+import NavLink from "./NavLink";
+
 
 
 function Navigator() {
