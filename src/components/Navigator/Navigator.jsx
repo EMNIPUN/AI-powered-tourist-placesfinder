@@ -1,8 +1,6 @@
 import React from 'react'
-import { Button } from '../ui/button'
 import { useNavigate } from "react-router-dom"
 import NavLink from './NavLink'
-import { NavigationMenuLink } from '@radix-ui/react-navigation-menu'
 
 
 function Navigator() {
