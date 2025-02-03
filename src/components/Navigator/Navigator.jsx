@@ -38,7 +38,7 @@ function Navigator() {
             <div className='flex items-center gap-9'>
                 <p className="text-white flex items-center gap-1"><i class="fa-solid fa-globe"></i>EN</p>
                 <div className='flex'>
-                    <button className='w-20 font-medium hover:font-bold underline underline-offset-2'  onClick={() => navigate('/signup')} >Signuuuup</button>
+                    <button className='w-20 font-medium hover:font-bold underline underline-offset-2'  onClick={() => navigate('/signup')} >Signup</button>
                     <button className='w-20 font-medium hover:font-bold underline underline-offset-2'  onClick={() => navigate('/login')}>Login</button>
                 </div>
             </div>
