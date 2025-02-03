@@ -1,7 +1,7 @@
 import React from 'react'
+import { Button } from '../ui/button'
 import { useNavigate } from "react-router-dom"
-// import NavLink from "./NavLink";
-
+import NavLink from './NavLink'
 
 
 function Navigator() {
@@ -30,7 +30,7 @@ function Navigator() {
                     <img src="/assets/icons/icon-global.gif" alt="search" className="w-8 h-8" /><span className='bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500'>AI</span>
                 </a>
                 <div className='hidden md:flex space-x-3 ml-12 gap-3 '>
-                    <NavLink />  
+                    <NavLink />
                 </div>
             </div>
 

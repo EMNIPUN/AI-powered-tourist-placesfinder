@@ -2,12 +2,13 @@ import React from 'react'
 import {
     NavigationMenu,
     NavigationMenuContent,
+    NavigationMenuIndicator,
     NavigationMenuItem,
     NavigationMenuLink,
     NavigationMenuList,
     NavigationMenuTrigger,
+    NavigationMenuViewport,
   } from "@/components/ui/navigation-menu"
-  import NavigationMenuLinks from './NavigationMenuLink'
   
 
 
@@ -48,12 +49,23 @@ function NavLink(props) {
             <NavigationMenuContent>
                 <ul className="grid gap-3 p-4 md:w-[550px] lg:w-[650px] lg:grid-cols-[.75fr_1fr]">
                 <li className="row-span-3 flex flex-col">
-                    {
-                        Links.map((Link)=> {
-                            return <NavigationMenuLinks name={Link} />
-                        })
-                    }
-                    {/* <NavigationMenuLinks name={Links[0]} /> */}
+                    <NavigationMenuLink className='border-b border-slate-300'>
+                        {/* <a>
+                            <div className="text-lg font-medium">
+                            <ul>
+                                <li
+                                    className='hover:bg-slate-100 p-2 rounded-md hover:cursor-pointer'
+                                >
+                                    <p className="text-xm text-black font-normal"><i class={props.name.icon}></i> {props.name.title}</p>
+                                    <p className="text-xs text-black mt-2 font-light">
+                                        {props.name.description}
+                                    </p>
+                                </li>
+
+                            </ul>
+                            </div>
+                        </a> */}
+                    </NavigationMenuLink>
                 </li>
                 <li className="row-span-3 flex gap-3">
                     <NavigationMenuLink>
