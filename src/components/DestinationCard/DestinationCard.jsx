@@ -30,6 +30,7 @@ const DestinationCard = (props) => {
                     ({props.destination.reviews})
                 </span>
             </div>
+            
             <button className='flex justify-center items-center gap-2 ml-28 mt-10'>
                 <span className='font-semibold'>Read More</span>
                 <img src="/assets/icons/next.png" alt="search" className="w-4 h-4 transition-transform group-hover:scale-105" />
